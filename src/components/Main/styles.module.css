@@ -1,0 +1,28 @@
+.banner-section {
+  background-image: url('https://www.shutterstock.com/image-photo/stylish-interior-contemporary-bedroom-comfortable-600nw-2477328441.jpg'); /* Update with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh; /* Makes it cover the whole viewport height */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content {
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Add transparency to the background for better text visibility */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.banner-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.banner-content p {
+  font-size: 1.5rem;
+}
